@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    background-image: url('background-technology-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    min-height: 97vh;
+  }
+  .logo{
+    position: fixed;
+    top: 46px;
+    left: 90px;
+    height: 50px;
+    width:  50px;
+  }
+  .line{
+    background-color: rgb(83, 83, 83);
+    position:fixed;
+    top: 65px;
+    left: 235px;
+    height: 0.5px;
+    width: 550px;
+  }
+  nav{
+    display: flex;
+    top: 30px;
+    background-color: inherit;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    justify-content: center;
+    height: 80px;
+    width: 750px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  nav a{
+    text-decoration: none;
+  }
+  .box{
+    color: aliceblue;
+    text-align: center;
+    margin: 10px;
+    width:120px;
+    height: 40px;
+    margin-right: 24px;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  nav a.box,
+  nav a:hover {
+    background-color:rgb(182, 222, 255);
+    height: 1px;
+  }
+  .C{
+    color: aliceblue;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 150px;
+    left: 235px;
+    z-index: 1;
+  }
+  .technology{
+    position:fixed;
+    right: 650px;
+    z-index: 1;
+
+    top: 300px;
+    width:max-content;
+    color: rgb(255, 255, 255);
+  }
+  .name{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 60px;
+  }
+  h2{
+    color: rgb(160, 160, 160);
+  }
+.txt{
+    margin-top: 0;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif
+  }
+  .circle{
+    font-size: 20px;
+    position: fixed;
+    top: 305px;
+    left: 200px;
+    z-index: 1;
+  }
+  .crcl{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 20px;
+    width:  70px;
+    height: 70px;
+    border-radius: 55%;
+    border: 1px solid;
+    border-color: rgb(92, 92, 92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .circle a{
+    text-decoration: none;
+  }
+  .crcl:hover{
+    color: black;
+    background-color: aliceblue;
+  }
+  .vehicle{
+    position: fixed;
+    right: 0;
+    top: 180px;
+    z-index: 1;
+
+  }
