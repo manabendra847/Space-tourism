@@ -1,0 +1,149 @@
+body {
+    display: flex;
+    background-image: url('background-destination-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    min-height: 97vh;
+  }
+  img{
+    display: flex;
+    position: fixed;
+    left: 200px;
+    top: 270px;
+    width: 30%;
+  }
+  .logo{
+    position: fixed;
+    top: 46px;
+    left: 90px;
+    height: 50px;
+    width:  50px;
+  }
+  .line{
+    background-color: rgb(83, 83, 83);
+    position:fixed;
+    top: 65px;
+    left: 235px;
+    height: 0.5px;
+    width: 550px;
+  }
+  nav{
+    display: flex;
+    top: 30px;
+    background-color: inherit;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    justify-content: center;
+    height: 80px;
+    width: 750px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  nav a{
+    text-decoration: none;
+  }
+  .box{
+    color: aliceblue;
+    text-align: center;
+    margin: 10px;
+    width:120px;
+    height: 40px;
+    margin-right: 24px;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  nav a.box,
+  nav a:hover {
+    background-color:rgb(182, 222, 255);
+    height: 1px;
+  }
+
+  .A{
+    color: aliceblue;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 150px;
+    left: 200px;
+    z-index: 1;
+  }
+  .selection{
+    display: flex;
+    color: aliceblue;
+    font-size: 20px;
+    position: fixed;
+    top: 250px;
+    left: 990px;
+    z-index: 1;
+  }
+  .box1{
+    color: aliceblue;
+    text-align: center;
+    margin: 10px;
+    width:50px;
+    height: 30px;
+    padding-top: 10px;
+  }
+  .selection a{
+    text-decoration: none;
+  }
+  .selection a.box1,
+  .selection a:hover {
+    background-color: inherit;
+    backdrop-filter: blur(40px);
+  }
+  .box1:hover{
+    color: rgb(127, 132, 137);
+  }
+  .star{
+    color: aliceblue;
+    font-size: 100px;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    position: fixed;
+    top: 310px;
+    left: 1000px;
+    z-index: 1;
+  }
+  .about{
+    color: aliceblue;
+    font-size: 18px;
+    font-family:Times, serif;
+    display: flex;
+    position: fixed;
+    top: 430px;
+    left: 1000px;
+    z-index: 1;
+  }
+  .line2{
+    position: fixed;
+    right: 130px;
+    top: 550px;
+    background-color: aliceblue;
+    width: 400px;
+    height: 1px;
+
+  }
+  
+  .details{
+    color: aliceblue;
+    font-size: 18px;
+    font-family:Times, serif;
+    display: flex;
+    position: fixed;
+    top: 550px;
+    left: 1000px;
+    z-index: 1;
+  }
+  .box2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 13px;
+    margin: 10px;
+    width:120px;
+    height: 30px;
+    padding-top: 10px;
+  }
