@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    background-image: url('background-crew-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    min-height: 97vh;
+  }
+  .logo{
+    position: fixed;
+    top: 46px;
+    left: 90px;
+    height: 50px;
+    width:  50px;
+  }
+  .line{
+    background-color: rgb(83, 83, 83);
+    position:fixed;
+    top: 65px;
+    left: 235px;
+    height: 0.5px;
+    width: 550px;
+  }
+  nav{
+    display: flex;
+    top: 30px;
+    background-color: inherit;
+    backdrop-filter: blur(20px);
+    position: fixed;
+    right: 0;
+    z-index: 1;
+    justify-content: center;
+    height: 80px;
+    width: 750px;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  nav a{
+    text-decoration: none;
+  }
+  .box{
+    color: aliceblue;
+    text-align: center;
+    margin: 10px;
+    width:120px;
+    height: 40px;
+    margin-right: 24px;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  nav a.box,
+  nav a:hover {
+    background-color:rgb(182, 222, 255);
+    height: 1px;
+  }
+  .B{
+    color: aliceblue;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 150px;
+    left: 235px;
+    z-index: 1;
+  }
+
+  .crew{
+    position:fixed;
+    right: 725px;
+    z-index: 1;
+    top: 300px;
+    width:580px;
+    color: rgb(255, 255, 255);
+  }
+  .name{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 50px;
+  }
+  h2{
+    color: rgb(160, 160, 160);
+  }
+.txt{
+    margin-top: 0;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  img{
+    position:fixed;
+    width: 28%;
+    left: 880px;
+    top: 190px;
+  }
+  .glover-ansari{
+    position:fixed;
+    width: 28%;
+    left: 830px;
+    top: 320px;
+  }
+  .selection{
+    display: flex;
+    position: fixed;
+    top: 550px;
+    left: 300px;
+    z-index: 1;
+  }
+  .selection a{
+    text-decoration: none;
+  }
+  .dot{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    width: 15px;
+    height:15px;
+    border-radius: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dot:hover{
+    background-color: rgb(93, 93, 93);
+  }
